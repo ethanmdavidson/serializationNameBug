@@ -11,3 +11,7 @@ Run `gradlew browserDevelopmentRun` to see the error:
 ```
 Module not found: Error: Can't resolve 'kotlinx-serialization-kotlinx-serialization-core-jsLegacy' in '<buildDir>\js\packages\serializationNameBug\kotlin-dce-dev'
 ```
+
+This bug has been reported here: https://github.com/Kotlin/kotlinx-datetime/issues/118
+
+Seems like it might also be related to https://youtrack.jetbrains.com/issue/KT-46598
